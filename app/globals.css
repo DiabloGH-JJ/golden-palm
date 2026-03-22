@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --backround: #141414;
+  --primary: #d4af37;
+  --secondary: #877645;
+  --text-white: #e5e2e1;
+  --hover-color: #f2ca50;
+  --text-hover: #3c2f00;
+}
+
+body {
+  background-color: var(--backround);
+}
