@@ -31,32 +31,32 @@ const Features = () => {
             title="AQUATIC HAVEN"
             description="Obsidian Infinity Pool"
             imageLink="/poolside.jpg"
+            svgLink="/pool.svg"
           />
         </div>
         {/* right */}
         <div className="w-1/2 h-[90vh] mt-20 flex flex-col gap-2">
           <div className="w-full h-1/2">
             <LinkCard
-              title="AQUATIC HAVEN"
-              description="The Golden Spa"
+              title="THE GOLDEN SPA"
+              description="Spa Internationale"
               imageLink="/spa.jpg"
+              svgLink="/spa.svg"
             />
           </div>
           <div className="w-full h-1/2 flex gap-2">
             <LinkCard
-              title="AQUATIC HAVEN"
-              description="Bar Noir"
+              title="BAR NOIR"
+              description="Alchool Francais"
               imageLink="/bar.jpg"
+              svgLink="/bar.svg"
             />
-            <div
-              className={`w-full h-full bg-[#2a2a2a] flex flex-col justify-center items-center gap-2 ${notoSerif.className}`}
-            >
-              <Image src="/dumbell.svg" alt="dumbell" width={30} height={30} />
-              <h3 className="text-white text-3xl">High Tech Gym</h3>
-              <p className={`text-white/60 text-xl ${manrope.className}`}>
-                TECHNOGYM ELITE
-              </p>
-            </div>
+            <LinkCard
+              title="HIGH TECH GYM"
+              description="Technogym Elite"
+              imageLink="/gym.jpg"
+              svgLink="/dumbell.svg"
+            />
           </div>
         </div>
       </div>
