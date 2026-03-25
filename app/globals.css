@@ -7,6 +7,16 @@
   --text-white: #e5e2e1;
   --hover-color: #f2ca50;
   --text-hover: #3c2f00;
+  --on-surface-variant: #d0c5af;
+  --primary-container: #d4af37;
+  --outline-variant: #4d4635;
+  --surface: #0f0f0f;
+  --surface-container-lowest: #0e0e0e;
+  --on-primary: #3c2f00;
+  --on-surface: #8d8988;
+  --surface-container-low: #1c1b1b;
+  --outline: #99907c;
+  --surface-container-high: #2a2a2a,
 }
 
 body {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Manrope, Noto_Serif } from "next/font/google";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const manrope = Manrope({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
