@@ -1,6 +1,7 @@
 "use client";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import { Manrope, Noto_Serif } from "next/font/google";
 import Image from "next/image";
 import SuiteCard from "./components/SuiteCard";
