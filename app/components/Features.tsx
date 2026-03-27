@@ -1,5 +1,4 @@
-import LinkCard from "./LinkCard";
-import Image from "next/image";
+import ImageCard from "./ImageCard";
 import { Noto_Serif, Manrope } from "next/font/google";
 
 const notoSerif = Noto_Serif({
@@ -27,7 +26,7 @@ const Features = () => {
       <div className="flex items-center gap-2 justify-between">
         {/* left */}
         <div className="mt-20 w-1/2 h-[90vh]">
-          <LinkCard
+          <ImageCard
             title="AQUATIC HAVEN"
             description="Obsidian Infinity Pool"
             imageLink="/poolside.jpg"
@@ -37,7 +36,7 @@ const Features = () => {
         {/* right */}
         <div className="w-1/2 h-[90vh] mt-20 flex flex-col gap-2">
           <div className="w-full h-1/2">
-            <LinkCard
+            <ImageCard
               title="THE GOLDEN SPA"
               description="Spa Internationale"
               imageLink="/spa.jpg"
@@ -45,13 +44,13 @@ const Features = () => {
             />
           </div>
           <div className="w-full h-1/2 flex gap-2">
-            <LinkCard
+            <ImageCard
               title="BAR NOIR"
               description="Alchool Francais"
               imageLink="/bar.jpg"
               svgLink="/bar.svg"
             />
-            <LinkCard
+            <ImageCard
               title="HIGH TECH GYM"
               description="Technogym Elite"
               imageLink="/gym.jpg"

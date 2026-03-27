@@ -10,11 +10,11 @@ const manrope = Manrope({
 
 const Button = ({ text }: ButtonData) => {
   return (
-    <div
+    <button
       className={`px-8 py-3 bg-(--primary) text-black text-xs tracking-widest hover:bg-(--hover-color) hover:text-[--text-hover] font-serif cursor-pointer ${manrope.className}`}
     >
       {text}
-    </div>
+    </button>
   );
 };
 
